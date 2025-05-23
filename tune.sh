@@ -27,7 +27,7 @@ install_dependencies() {
 ulimit -a
 ulimit -u 8192; ulimit -n 1048576; ulimit -s unlimited; ulimit -l unlimited
 ulimit -a
-is_danger_time() {
+
 is_danger_time() {
     local h=$(TZ="Asia/Kolkata" date +%H)
     local m=$(TZ="Asia/Kolkata" date +%M)
